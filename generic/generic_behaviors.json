@@ -1,0 +1,44 @@
+{
+    "behaviors": {
+        "Generic Monster Behavior": [
+            "Prowling for prey, moving silently through the underbrush.",
+            "Laying in wait for an ambush, hidden from view and ready to strike.",
+            "Fighting amongst themselves, snarling and clashing over territory or dominance.",
+            "Resting in a hidden spot, curled up and seemingly unaware of nearby activity.",
+            "Guarding a territory, standing alert and growling at any intruders.",
+            "Eating or drinking, focused on its meal and less aware of its surroundings.",
+            "Chasing another creature, darting through the forest with determination.",
+            "Exploring the area, sniffing or observing its surroundings curiously."
+        ],
+        "Friendly NPC Behavior": [
+            "Sharing stories, sitting around a campfire and speaking animatedly.",
+            "Offering supplies or aid, rummaging through a pack to help a traveler in need.",
+            "Asking for help with a task, looking concerned and gesturing towards an obstacle or problem.",
+            "Resting and unaware of players, lying on the ground or leaning against a tree with eyes closed.",
+            "Cooking a meal, stirring a pot over a campfire and occasionally tasting the contents.",
+            "Trading with another NPC, exchanging goods and discussing prices.",
+            "Teaching something useful, demonstrating a skill or explaining knowledge to others.",
+            "Setting up camp, arranging tents or gathering firewood for the night."
+        ],
+        "Neutral NPC Behavior": [
+            "Observing surroundings cautiously, glancing around and staying alert for any signs of danger.",
+            "Traveling through the area, moving with purpose and occasionally checking a map or compass.",
+            "Resting and staying alert, sitting down but keeping eyes open and ears attuned to sounds.",
+            "Gathering herbs or resources, picking plants or collecting other items from the environment.",
+            "Inspecting equipment, checking weapons or adjusting straps on armor.",
+            "Discussing with a companion, speaking in low tones and occasionally glancing around.",
+            "Ignoring the players, focused on their task and uninterested in interaction.",
+            "Repairing gear, using tools to fix a weapon or piece of armor."
+        ],
+        "Enemy NPC Behavior": [
+            "Setting up an ambush, positioning themselves in hiding spots along a path.",
+            "Arguing amongst themselves, voices raised and weapons gesturing in anger.",
+            "Searching for something, scouring the ground or examining nearby objects.",
+            "Interrogating a captive, speaking harshly and demanding answers.",
+            "On patrol, moving in a set pattern and scanning the surroundings for threats.",
+            "Setting traps, carefully arranging wires or bait to catch the unwary.",
+            "Engaging in combat practice, sparring with each other or practicing with weapons.",
+            "Guarding a location, standing alert and watching for intruders."
+        ]
+    }
+}

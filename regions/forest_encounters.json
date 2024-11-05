@@ -1,0 +1,297 @@
+{
+  "terrain_details": {
+    "Default": [
+      "Thick underbrush with thorny vines, making movement slow and causing minor scratches.",
+      "Open clearing with soft moss, ideal for setting up camp or resting.",
+      "Dense canopy blocking out most light, creating a dark and eerie atmosphere.",
+      "Gloomy grove with twisted trees, their gnarled branches resembling skeletal hands.",
+      "Small, fast-moving brook, with slippery rocks making crossing treacherous.",
+      "Fallen logs and tangled roots, creating natural obstacles that require careful navigation.",
+      "Mysterious stone circle covered in runes, hinting at ancient rituals or long-lost magic.",
+      "Hollowed-out tree with hidden animal nests, occasionally home to small, curious creatures.",
+      "Abandoned campsite, possibly recent, with remnants of a fire and scattered belongings.",
+      "Glade with luminescent mushrooms, casting a soft glow that provides minimal light at night."
+    ],
+    "With Structure": [
+      "Old stone ruins overgrown with ivy, with crumbling walls and hidden alcoves.",
+      "Partially collapsed cabin, with broken beams and shattered windows, offering some shelter.",
+      "Ancient watchtower, mostly intact, with a rickety staircase leading to a vantage point.",
+      "Abandoned farmhouse, with rusted tools and broken furniture, suggesting a hurried departure.",
+      "Ruined castle walls hidden in the forest, with moss-covered stone and a feeling of lost grandeur."
+    ],
+    "With Water": [
+      "Shallow stream crossing the path, with clear water and pebbles visible beneath the surface.",
+      "Small pond reflecting the moonlight, its still surface occasionally disturbed by fish.",
+      "Wide, slow-moving river, with thick vegetation along the banks and a gentle current.",
+      "Waterfall cascading into a pool, creating a constant roar and mist that hangs in the air.",
+      "Marshy area with patches of dry ground, where reeds and cattails grow thickly."
+    ],
+    "With Road": [
+      "Old cobblestone path, overgrown in places but still visible, hinting at an ancient trade route.",
+      "Narrow dirt road, well-worn by travelers and edged with wildflowers.",
+      "Abandoned and overgrown trail, with broken branches and thick vegetation reclaiming the path.",
+      "Merchant's road, well-traveled, with wagon tracks and occasional signs of recent use.",
+      "Hidden forest path used by locals, barely visible and winding through dense underbrush."
+    ]
+  },
+  "weather_conditions": [
+    "Heavy rain, making the ground slippery and turning dirt paths into treacherous mud.",
+    "Drizzle with a damp chill, soaking clothing and causing discomfort.",
+    "Fog rolling in thick and low, reducing visibility to only a few feet ahead.",
+    "Bright, cloudless sky (if daytime), making the forest feel warm and inviting.",
+    "Overcast and threatening storm clouds, creating a sense of urgency to find shelter.",
+    "Gentle breeze with rustling leaves, providing a calming background noise.",
+    "Sudden gusts of wind shaking branches, occasionally causing twigs and leaves to fall.",
+    "Light snow falling (if appropriate season), covering the ground in a soft, white blanket.",
+    "Unnatural silence and stillness, as if the forest is holding its breath.",
+    "Whispers carried on the wind (magical), faint and barely understandable, creating an eerie atmosphere."
+  ],
+  "visibility": {
+    "Day": [
+      "Clear and well-lit, allowing easy navigation and observation of surroundings.",
+      "Dappled sunlight or shifting shadows, making it harder to discern movement in the distance.",
+      "Shadows cast by broken clouds, creating shifting patches of darkness.",
+      "Sunlight breaking through gaps in the canopy, illuminating the forest floor in spots.",
+      "Bright with occasional cloud cover, providing inconsistent lighting."
+    ],
+    "Night": [
+      "Pitch dark, requiring a light source to see anything.",
+      "Moonlight filtering through branches, providing enough light to navigate cautiously.",
+      "Dim due to dense canopy, making it difficult to see more than a few feet ahead.",
+      "Glowing plant life, offering a faint, ethereal light that barely illuminates the area.",
+      "Flickering light from unknown source, casting eerie, moving shadows."
+    ]
+  },
+  "navigation_difficulty": [
+    "Nearly impassable without climbing/crawling, requiring significant effort to progress.",
+    "Rough terrain slowing movement, with loose rocks and uneven ground underfoot.",
+    "Muddy ground causing slip hazards, making progress slow and tiring.",
+    "Easy to traverse, natural path present, allowing for quick movement.",
+    "Tricky with roots and vines catching feet, requiring careful steps to avoid tripping.",
+    "Soggy ground with hidden water pools, threatening to swallow unwary feet.",
+    "Twisting paths creating confusion, with few landmarks to determine direction.",
+    "Smooth, padded with leaves, making movement nearly silent but also prone to slipping.",
+    "Rocky outcrops jutting from the forest floor, requiring careful climbing or navigation.",
+    "Unnervingly smooth ground with no vegetation, giving a sense of something unnatural."
+  ],
+  "encounter_types": {
+    "Monsters": {
+      "Undead": [
+        "Skeleton, rattling as it moves with clumsy but relentless determination.",
+        "Zombie, with decaying flesh and a sluggish, relentless pace.",
+        "Wight, an undead being with glowing eyes and malevolent intent.",
+        "Ghoul, hunched and feral, craving flesh and moving with unsettling speed."
+      ],
+      "Greater Undead": [
+        "Ghost, semi-transparent and bound to the place of its death, often wailing.",
+        "Vampire, charming but deadly, capable of swift attacks and dark magic.",
+        "Death Knight, heavily armored and filled with unholy energy, wielding a cursed blade.",
+        "Banshee, a spectral figure whose wail can bring death to those who hear it."
+      ],
+      "Fae": [
+        "Pixie, a small winged creature with a mischievous nature, often invisible.",
+        "Dryad, a spirit of the trees, protective of their grove and capable of nature magic.",
+        "Sprite, tiny and curious, darting around swiftly and often playing tricks.",
+        "Boggart, a malicious fae that delights in causing fear and confusion."
+      ],
+      "Beasts": [
+        "Dire Wolf, larger and more vicious than a normal wolf, often hunting in packs.",
+        "Giant Spider, capable of spinning webs to trap prey and injecting venom.",
+        "Bear, massive and powerful, usually territorial and protective of cubs.",
+        "Sabertooth Tiger, an ancient predator with massive fangs and a cunning hunting style."
+      ],
+      "Accursed Beings": [
+        "Cursed Knight, a once-noble warrior turned to darkness, seeking redemption or revenge.",
+        "Hag, an old witch-like creature, skilled in dark magic and often seeking bargains.",
+        "Werewolf, a human transformed into a wolf-like monster, driven by rage.",
+        "Possessed Doll, animated by dark magic, small but surprisingly dangerous."
+      ],
+      "Giants": [
+        "Hill Giant, simple-minded but immensely strong, often found in remote areas.",
+        "Stone Giant, gray-skinned and covered in rocky protrusions, preferring mountainous terrain.",
+        "Fire Giant, with skin like molten rock, capable of hurling fireballs.",
+        "Frost Giant, towering and blue-skinned, dwelling in icy regions and wielding ice magic."
+      ],
+      "Fiends": [
+        "Imp, a small demon often used as a familiar by greater fiends.",
+        "Succubus, a seductive demon capable of charming victims to do its bidding.",
+        "Hellhound, a fiery canine beast with glowing red eyes, often in service to dark masters.",
+        "Balor, a massive demon with flaming wings and a sword of lightning."
+      ]
+    },
+    "Neutral NPCs": {
+      "Scholars": [
+        "Historian, well-versed in local lore and seeking ancient artifacts.",
+        "Cartographer, creating detailed maps and always interested in new landmarks.",
+        "Alchemist, gathering rare ingredients for potions and often willing to trade.",
+        "Archaeologist, digging for relics of the past and eager to learn from ruins."
+      ],
+      "Travellers": [
+        "Merchant, carrying a variety of goods and willing to barter for interesting items.",
+        "Pilgrim, journeying to a sacred site and often offering blessings in return for help.",
+        "Wandering Bard, sharing tales and songs, and often providing valuable information.",
+        "Scout, adept at navigating the wilds and often aware of recent dangers."
+      ],
+      "Commoners": [
+        "Farmer, tending to crops and often knowledgeable about the local area.",
+        "Woodcutter, cutting timber and often able to provide information on nearby paths.",
+        "Fisherman, working near water and familiar with aquatic creatures and hazards.",
+        "Herbalist, gathering herbs and willing to trade or share knowledge of their uses."
+      ],
+      "Hermits": [
+        "Reclusive Herbalist, living alone in the forest and highly knowledgeable about healing plants.",
+        "Disgraced Noble, hiding from past mistakes and often bitter but knowledgeable.",
+        "Exiled Mage, practicing magic in seclusion, often possessing powerful spells.",
+        "Wildman, living off the land and barely speaking, wary of strangers but skilled in survival."
+      ]
+    },
+    "Enemy NPCs": {
+      "Bandits": [
+        "Highwayman, targeting travelers and demanding valuables at swordpoint.",
+        "Robber, sneaking into camps and stealing when unnoticed.",
+        "Thief Leader, organizing raids and often possessing valuable information.",
+        "Brigand, violent and ruthless, preying on the weak and defenseless."
+      ],
+      "Mercenaries": [
+        "Bounty Hunter, seeking a specific target and willing to fight for a price.",
+        "Hired Soldier, well-trained and loyal only as long as the payment lasts.",
+        "Sell-sword, skilled with a blade but disinterested in loyalty or honor.",
+        "Assassin, silent and deadly, often lurking in shadows and waiting for an opportunity."
+      ],
+      "Cultists": [
+        "Dark Priest, leading rituals to summon or appease dark entities.",
+        "Zealous Acolyte, fanatically loyal to the cult's cause and willing to die for it.",
+        "Cult Leader, charismatic and manipulative, with knowledge of forbidden magic.",
+        "Fanatic, driven by blind devotion and fighting with reckless abandon."
+      ],
+      "Rogue Nobles": [
+        "Disgraced Knight, skilled but dishonorable, often working as a mercenary.",
+        "Traitorous Lord, plotting against rightful rulers and seeking personal power.",
+        "Exiled Heir, driven to reclaim a lost title and willing to do anything for allies.",
+        "Fugitive Baron, wanted for crimes and using underhanded tactics to survive."
+      ]
+    },
+    "Predator": {
+      "Wild Beasts": [
+        "Dire Wolf, stalking prey silently and capable of working with its packmates.",
+        "Mountain Lion, agile and powerful, often ambushing from above.",
+        "Wild Boar, aggressive and territorial, with sharp tusks capable of serious injury.",
+        "Giant Snake, coiling around its prey and constricting with immense strength."
+      ],
+      "Aerial Predators": [
+        "Giant Eagle, with keen vision and capable of swooping down on prey.",
+        "Hawk, swift and precise, able to strike without warning.",
+        "Vulture, circling overhead and waiting for weakness to exploit.",
+        "Wyvern, a fearsome flying reptile with a venomous stinger on its tail."
+      ],
+      "Aquatic Predators": [
+        "Crocodile, lying in wait just below the water's surface, ready to lunge.",
+        "Giant Leech, attaching to prey and draining blood, often hiding in murky waters.",
+        "Pike, a large predatory fish, quick to strike any creature that enters its territory.",
+        "Swamp Serpent, slithering through the water and capable of striking with surprising speed."
+      ],
+      "Magical Predators": [
+        "Manticore, a monstrous creature with a spiked tail, capable of launching deadly spikes.",
+        "Chimera, a three-headed beast with multiple attack methods, including fire breath.",
+        "Basilisk, whose gaze can turn its victims to stone, requiring averted eyes to fight.",
+        "Griffon, a powerful creature with the body of a lion and wings of an eagle, fiercely territorial."
+      ]
+    },
+    "Landmarks": {
+      "Natural Formations": [
+        "Ancient Oak Tree, towering above the forest with gnarled branches, possibly home to magical beings.",
+        "Mysterious Rock Formation, with stones arranged in patterns that suggest ancient rituals.",
+        "Hidden Waterfall, cascading into a small pool, surrounded by lush greenery and blooming flowers.",
+        "Crystal Cave, with walls covered in glittering crystals that reflect any available light."
+      ],
+      "Man-made Structures": [
+        "Old Watchtower, partially collapsed but still providing a vantage point over the surrounding forest.",
+        "Ruined Temple, with broken pillars and faded murals, a place of worship long forgotten.",
+        "Stone Bridge, cracked but still passable, crossing over a shallow stream.",
+        "Abandoned Mine Entrance, leading into darkness, with rotting supports and the smell of damp earth."
+      ],
+      "Mythical Sites": [
+        "Fey Circle, a ring of mushrooms that glows faintly at night, rumored to be a portal to the Feywild.",
+        "Ancient Obelisk, covered in runes that speak of a forgotten age, standing alone in the clearing.",
+        "Cursed Well, from which eerie whispers can be heard, said to grant wishes at a terrible cost.",
+        "Dragon's Grave, a massive skeleton lying half-buried, the bones giving off a faint warmth."
+      ],
+      "Sacred Places": [
+        "Holy Shrine, adorned with offerings and symbols of protection, visited by pilgrims.",
+        "Spirit Grove, where the air feels thick with magic and the trees seem almost alive.",
+        "Druidic Altar, a stone table covered in moss, used for rituals to honor the forces of nature.",
+        "Sacred Spring, its water crystal clear and rumored to have healing properties."
+      ]
+    },
+    "Obstacles": {
+      "Natural": [
+        "Fallen tree blocking the path, requiring either climbing over or cutting through.",
+        "Rockslide covering a trail, making it difficult and dangerous to traverse.",
+        "Deep, muddy pit, with soft ground that threatens to trap anyone who steps in.",
+        "Thick, impassable thorn bushes, with sharp thorns that can easily tear clothing and skin.",
+        "Steep hill requiring climbing, with loose dirt and few handholds, making it challenging."
+      ],
+      "Man-made": [
+        "Collapsed bridge, leaving only broken planks and forcing a detour or creative solution.",
+        "Barricade of logs and branches, intentionally placed to prevent passage.",
+        "Old, rusted trap, barely visible and capable of injuring an unwary traveler.",
+        "Blocked road with broken wagon, requiring effort to move or dismantle to pass.",
+        "Gate locked with a rusted chain, requiring a key or force to break through."
+      ],
+      "Environmental": [
+        "Fast-moving river without a bridge, challenging to cross without swimming.",
+        "Dense fog obscuring the path, reducing visibility and making navigation difficult.",
+        "Swampy area with unstable footing, where stepping on the wrong patch can result in sinking.",
+        "Patches of quicksand, with deceptive appearances that can trap a careless traveler.",
+        "Sudden, steep ravine, appearing without warning and requiring careful navigation around it."
+      ]
+    },
+    "Faction Events": {
+      "Patrol": [
+        "Group of soldiers on patrol, alert and scanning the area for threats.",
+        "Rogue knights discussing strategy, appearing tense and heavily armed.",
+        "Faction scouts surveying the area, making notes on a map and setting markers.",
+        "Mercenary band patrolling for hire, well-equipped and looking for opportunities to earn gold."
+      ],
+      "Raid": [
+        "Raiders attacking a caravan, with shouts and clashing weapons echoing in the distance.",
+        "Group ambushing a rival faction, using the element of surprise to overwhelm their enemies.",
+        "Bandits looting a remote settlement, with villagers fleeing and smoke rising from burning homes.",
+        "Factional raid causing commotion, with multiple groups clashing and chaos ensuing."
+      ],
+      "Meeting": [
+        "Secret faction gathering, held in a secluded location to avoid prying eyes.",
+        "Negotiation between rival leaders, tense and guarded, with heavily armed escorts.",
+        "Guards conducting a prisoner transfer, the prisoner shackled and escorted with caution.",
+        "Strategy meeting under a hidden tent, with maps spread out and heated discussions ongoing."
+      ],
+      "Scout Activity": [
+        "Scouts mapping the land, moving cautiously and marking important features.",
+        "Sentries posted on a hill, watching for movement and signaling their comrades.",
+        "Lookout keeping watch, perched in a tree and scanning the area with a spyglass.",
+        "Silent reconnaissance of an enemy's position, moving with stealth and reporting back."
+      ]
+    }
+  },
+  "player_position": [
+    "Directly in front of encounter, visible and with little chance of remaining unnoticed.",
+    "Close range with little cover, making it difficult to avoid detection.",
+    "Partially hidden by foliage, offering some concealment but not complete.",
+    "Approaching from a high vantage point, giving a clear view of the situation below.",
+    "Near a water source with a clear view, providing both visibility and some background noise to cover movement.",
+    "Approaching from behind trees, using the trunks as cover while moving closer.",
+    "Seen from afar but not detected, allowing for planning or stealthy movement.",
+    "Surprised by encounter behind them, caught off guard and needing to react quickly.",
+    "Encounter in an open area; no immediate cover available, forcing a decision to fight or flee.",
+    "Encounter above them (e.g., in trees or flying), requiring players to look up and potentially exposing themselves."
+  ],
+  "flags": {
+    "is_stationary": false,
+    "is_traveling": true,
+    "is_night": false,
+    "is_day": true,
+    "has_structure": true,
+    "has_water": false,
+    "has_road": false
+  }
+}

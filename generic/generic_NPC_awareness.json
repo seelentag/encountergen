@@ -1,0 +1,94 @@
+{
+    "awareness": {
+        "Hostile": {
+            "Unaware": [
+                "The NPC is preoccupied, sharpening their weapon without noticing anyone around.",
+                "The figure sits at their post, head nodding in exhaustion, oblivious to nearby movement.",
+                "The NPC talks loudly with others, unaware of potential intruders.",
+                "The character reads a report, completely focused and inattentive to their surroundings.",
+                "The hostile figure adjusts their armor or equipment, ignoring external noises."
+            ],
+            "Slightly Aware": [
+                "The NPC shifts uncomfortably, sensing something but staying put.",
+                "The character glances over their shoulder but returns to their task, unconvinced of any threat.",
+                "The figure pauses mid-conversation, eyes narrowing briefly before resuming.",
+                "The NPC looks up from their work, brows furrowed, before dismissing the feeling.",
+                "The guard shifts posture, listening but remaining generally unconcerned."
+            ],
+            "Partially Aware": [
+                "The NPC squints into the distance, trying to discern movement.",
+                "The guard grips their weapon more tightly, scanning the area carefully.",
+                "The figure walks a few steps, alert but not yet sure of any presence.",
+                "The NPC mutters to themselves, eyes darting between shadows.",
+                "The character hesitates, appearing ready to act if necessary."
+            ],
+            "Fully Aware": [
+                "The NPC shouts an alarm, pointing directly at the players.",
+                "The figure raises their weapon and takes an aggressive stance.",
+                "The guard locks eyes with the players, preparing to engage.",
+                "The character moves purposefully towards the players, eyes filled with hostility.",
+                "The NPC barks orders to others, clearly aware of the players' presence."
+            ]
+        },
+        "Neutral": {
+            "Unaware": [
+                "The NPC hums softly as they work, paying no mind to their surroundings.",
+                "The figure tends to their belongings, lost in thought.",
+                "The character reads or writes with full focus, not noticing anyone nearby.",
+                "The NPC chats with others, fully absorbed in the conversation.",
+                "The person is busy eating or drinking, unaware of approaching figures."
+            ],
+            "Slightly Aware": [
+                "The NPC pauses, sensing movement but remaining at ease.",
+                "The character looks up briefly, curiosity piqued, but continues what they were doing.",
+                "The figure glances around as if trying to place an unfamiliar noise.",
+                "The NPC rubs their chin, eyes flicking momentarily toward the players.",
+                "The person shifts slightly, glancing up and then looking away."
+            ],
+            "Partially Aware": [
+                "The NPC stands up straighter, looking directly at the players with mild interest.",
+                "The figure tilts their head, evaluating the players from a distance.",
+                "The character gestures to a companion, indicating the players.",
+                "The NPC's eyes follow the players’ movement, observing carefully.",
+                "The person looks over with a neutral expression, waiting for a sign of intent."
+            ],
+            "Fully Aware": [
+                "The NPC nods in acknowledgment, showing full awareness of the players.",
+                "The character approaches, ready to interact or respond.",
+                "The NPC shifts their stance, making eye contact with the players.",
+                "The figure stands with crossed arms, observing the players intently.",
+                "The person watches the players’ every move, fully conscious of their presence."
+            ]
+        },
+        "Friendly": {
+            "Unaware": [
+                "The NPC smiles and hums a tune, focused on their task.",
+                "The character leans back, eyes closed in relaxation, unaware of anyone nearby.",
+                "The person chats happily with others, not noticing the players.",
+                "The NPC stirs a pot or prepares food, engrossed in their work.",
+                "The figure writes or sketches with deep concentration, oblivious to external activity."
+            ],
+            "Slightly Aware": [
+                "The NPC looks up, sensing movement, but resumes their cheerful task.",
+                "The figure glances over, eyes lighting up momentarily before continuing.",
+                "The character smiles absently, aware that someone might be near but not focused.",
+                "The NPC waves briefly without fully engaging, acknowledging potential company.",
+                "The person pauses in their activity, glancing around with mild interest."
+            ],
+            "Partially Aware": [
+                "The NPC notices the players and smiles warmly, preparing to greet them.",
+                "The figure looks directly at the players, visibly happy to see them.",
+                "The character raises a hand in greeting, recognizing the players.",
+                "The NPC turns toward the players, anticipation showing in their expression.",
+                "The person steps forward slightly, ready to engage."
+            ],
+            "Fully Aware": [
+                "The NPC walks over with a grin, ready to converse.",
+                "The figure greets the players enthusiastically, fully aware and attentive.",
+                "The character calls out a friendly greeting, signaling acknowledgment.",
+                "The NPC waves the players over, beaming with recognition.",
+                "The person moves to meet the players, clearly happy to see them."
+            ]
+        }
+    }
+}
